@@ -81,7 +81,7 @@ Matching intervals (inclusive upper/lower bounds):
 	(match? [-5 5] 3)
 	=> true
 
-## "pattern matching"
+## "Pattern matching"
 
 One can use 'condp' to do pattern matching using 'match?':
 
