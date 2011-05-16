@@ -59,7 +59,7 @@
 (defmethod match? [java.util.Map java.util.Map]
   [pattern testee]
   (every?
-    true?
+    identity
     (for [k (keys pattern)]
       (match? (get pattern k) (get testee k)))))
 
